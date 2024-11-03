@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "format": "prettier --write .",
+    "build": "react-scripts build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
@@ -55,7 +56,10 @@
       "plugin:storybook/recommended"
     ]
   },
-  "lint-staged": {
-    "*.js": "eslint --cache --fix"
-  }
+"lint-staged": {
+  "*.{js,jsx,ts,tsx}": [
+    "eslint --fix",
+    "prettier --write"
+  ]
+}
 }
