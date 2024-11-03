@@ -1,6 +1,5 @@
-
 const Test = () => {
-    return(<>HI</>)
-}
+  return <>HI</>;
+};
 
-export default Test
+export default Test;

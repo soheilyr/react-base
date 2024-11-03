@@ -23,22 +23,21 @@
     "noUncheckedSideEffectImports": true,
     "baseUrl": ".",
     "paths": {
-      "@/images/*":["./public/assets/images/*"],
-      "@/icons/*":["./public/assets/icons/*"],
-      "@/fonts/*":["./public/assets/fonts/*"],
+      "@/images/*": ["./public/assets/images/*"],
+      "@/icons/*": ["./public/assets/icons/*"],
+      "@/fonts/*": ["./public/assets/fonts/*"],
       "@/components/*": ["./src/components/*"],
       "@/configs/*": ["./src/configs/*"],
-      "@/hooks/*":["./src/hooks/*"],
+      "@/hooks/*": ["./src/hooks/*"],
       "@/pages/*": ["./src/pages/*"],
       "@/routes/*": ["./src/routes/*"],
-      "@/schema/*":["./src/schema/*"],
-      "@/serivces/*":["./src/serivces/*"],
-      "@/store/*":["./src/store/*"],
+      "@/schema/*": ["./src/schema/*"],
+      "@/serivces/*": ["./src/serivces/*"],
+      "@/store/*": ["./src/store/*"],
       "@/src/*": ["./src/*"],
       "@/types/*": ["./src/types/*"],
-      "@/utils/*": ["./src/utils/*"],
+      "@/utils/*": ["./src/utils/*"]
     }
-
   },
   "include": ["src"]
 }
